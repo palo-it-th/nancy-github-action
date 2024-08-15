@@ -17,4 +17,4 @@
 # INPUT_NANCYVERSION env var is set automagically to the value of inputs.nancyVersion
 /install-nancy.sh $INPUT_NANCYVERSION
 
-nancy $2 < $1
+nancy $2 < $1 > $3
